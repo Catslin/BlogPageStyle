@@ -2,7 +2,7 @@ body {
   padding: 0;
   margin: 0;
   background-color: black;
-  background-image: url(./image/blogbacck.jpg);
+  background-image: url('/image/blogbacck.jpg');
 }
 
 .page-container {
@@ -198,7 +198,17 @@ body {
   border: white 2px solid;
   color: honeydew;
 }
-
+.addTxt {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  right: 10%;
+  bottom: 10%;
+  border-radius: 50%;
+  background-image: url('../image/add.png');
+  background-size: cover;
+  background-position: center;
+}
 /* 媒体查询 */
 @media (max-width: 768px) {
   .page-container {
