@@ -235,6 +235,6 @@ body {
     display: none;
   }
   .card-top {
-    font-size: 10px;
+    flex-direction: column;
   }
 }
