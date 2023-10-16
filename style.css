@@ -82,6 +82,7 @@ body {
 }
 
 .article-card {
+  background-color: white;
   border: 2px black solid;
   width: 90%;
   margin: 10px;
