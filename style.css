@@ -78,6 +78,8 @@ body {
   font-family: Blippo, fantasy;
   font-size: 30px;
   margin: 10px;
+  padding: 10px;
+  border: white 5px solid;
   width: 5%;
 }
 
