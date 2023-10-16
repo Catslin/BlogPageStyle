@@ -90,7 +90,7 @@ body {
   justify-content: center;
   align-items: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  overflow: auto;
+  overflow: hidden;
 }
 .article-card > .card-top {
   width: 100%;
@@ -233,5 +233,8 @@ body {
   }
   .card-buttom {
     display: none;
+  }
+  .card-top {
+    font-size: 10px;
   }
 }
