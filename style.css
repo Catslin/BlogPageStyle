@@ -89,6 +89,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .article-card > .card-top {
   width: 100%;
