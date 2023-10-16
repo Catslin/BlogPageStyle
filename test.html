@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.add-button {
+  display: inline-block;
+  position: relative;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.add-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
+}
+
+.add-icon::before,
+.add-icon::after {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 2px;
+  background-color: #4caf50;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.add-icon::before {
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.add-icon::after {
+  transform: translate(-50%, -50%) rotate(0deg);
+}
+
+    </style>
+</head>
+<body>
+    <button class="add-button">
+        <span class="add-icon"></span>
+      </button>
+      
+</body>
+</html>
