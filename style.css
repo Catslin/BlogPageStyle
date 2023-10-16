@@ -248,4 +248,8 @@ body {
   .card-top {
     flex-direction: column;
   }
+  .addTxt { 
+    width: 80px;
+    height: 80px;
+  }
 }
